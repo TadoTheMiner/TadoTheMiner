@@ -7,7 +7,7 @@
 use std::fmt;
 
 fn main() {
-    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "Fedora"};
+    let tado = Rustacean{name: "Tadeas", pronouns: &Pronouns::HeHim, distro: "Opensuse"};
     println!("{tado}");
 }
 
